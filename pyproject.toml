@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sarapatel"
+version = "0.1.0"
+description = ""
+authors = ["Joelson Sartori Junior <33182102+JoelsonSartoriJr@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.2"
+matplotlib = "^3.9.2"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
